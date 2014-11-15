@@ -1,0 +1,97 @@
+2014-11-15 15:00:50 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-cakephp-1e79eee/view
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-15 15:01:08 Error: [MissingActionException] Action AppController::model() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'model',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/model/
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:01:14 Error: [MissingActionException] Action AppController::model() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'model',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/model/view
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:01:45 Error: [MissingActionException] Action AppController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'view',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/view/Arena/Sight
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:01:57 Error: [MissingActionException] Action AppController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'view',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/view/Arena/Sight.ctp
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:02:06 Error: [MissingActionException] Action AppController::model() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'model',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/model/arena
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:02:55 Error: [MissingActionException] Action AppController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'view',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/view/arenas
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:03:20 Error: [MissingActionException] Action AppController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'view',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/view/arena/character
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-15 15:03:31 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /cakephp-cakephp-1e79eee/app/View/arena/character
+Stack Trace:
+#0 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-cakephp-1e79eee\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-cakephp-1e79eee\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
